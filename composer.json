@@ -1,0 +1,14 @@
+{
+    "name": "telegrambot/telegrambot",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "longman/telegram-bot": "*",
+        "monolog/monolog": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
